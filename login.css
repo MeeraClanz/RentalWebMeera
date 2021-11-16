@@ -1,0 +1,67 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body
+{
+    height: 100%;
+    width: 100%;
+}
+.clearfix
+{
+    clear: both;
+}
+.container
+{
+   width: 1263px;
+}
+.part1
+{
+    width: 50%;
+    height: 569px;
+    background-color: #f3ead4;
+    position: relative;
+    float: left;
+}
+.centered 
+{
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    color: #1d0e1a;
+}
+.screen
+{
+    position: absolute;
+    width: 631px;
+    height: 348px;
+    bottom: 0;
+}
+.part2
+{
+    width: 50%;
+    background-color: var(--white);
+    float: right;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
