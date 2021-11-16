@@ -69,7 +69,6 @@ input
     width: 100%;
     font-size: 16px;
     font-weight: 500;
-    
     color: #333;
     padding: 0;
     margin:  0;
@@ -81,17 +80,30 @@ label
     font-size: 13px;
     color: var(--brown-grey);
 }
-input, label
-{
-    padding: 10px;
-}
 .button 
 {
-    background-color: green;
-    color: var(--white);
+    background-color: #772360;
     padding: 13px 0;
     margin: 26px 0;
     border: none;
     border-radius: 20px;
+    color: #ffffff;
     width: 100%;
+}
+.forget
+{
+    float: right;
+    color: #333333;
+    font-size: 14px;
+}
+.dont
+{
+    color: #666666;
+    font-size: 14px;
+}
+.create
+{
+    color: #772360;
+    font-size: 14px;
+    font-weight: bold;
 }
