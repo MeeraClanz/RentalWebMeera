@@ -9,6 +9,10 @@ html, body
     height: 100%;
     width: 100%;
 }
+@font-face {
+    font-family: poppins-Light 300;
+    src: url();
+}
 .clearfix
 {
     clear: both;
@@ -46,22 +50,48 @@ html, body
     width: 50%;
     background-color: var(--white);
     float: right;
+    padding: 144px;
 }
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-  }
-  
-  button {
-    background-color: #04AA6D;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
+.text1
+{
+    color: var(--black);
+    font-size: 32px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+input 
+{
     border: none;
-    cursor: pointer;
+    outline: none;
     width: 100%;
-  }
+    font-size: 16px;
+    font-weight: 500;
+    
+    color: #333;
+    padding: 0;
+    margin:  0;
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+}
+label
+{
+    font-size: 13px;
+    color: var(--brown-grey);
+}
+input, label
+{
+    padding: 10px;
+}
+.button 
+{
+    background-color: var(--darkish-purple);
+    color: var(--white);
+    padding: 13px 0;
+    margin: 26px 0;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+}
